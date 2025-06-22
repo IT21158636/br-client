@@ -137,10 +137,7 @@ const BusinessRegistrationForm = () => {
       <div className="max-w-4xl mx-auto">
         <div className="overflow-hidden bg-white rounded-lg shadow-lg">
           <div className="p-6 text-white bg-blue-600 rounded-t-lg">
-            <h1 className="text-2xl font-bold">
-              {" "}
-              Nextoex Information Business Registration
-            </h1>
+            <h1 className="text-2xl font-bold"> Business Registration</h1>
             <p className="mt-2 text-blue-100">
               Complete all steps to register your business
             </p>
