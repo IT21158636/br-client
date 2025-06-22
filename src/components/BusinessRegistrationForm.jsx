@@ -74,7 +74,7 @@ const BusinessRegistrationForm = () => {
   const handleSubmit = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/business-registration",
+        "https://br-backend-git-main-ureshs-projects.vercel.app/api/business-registration",
         {
           method: "POST",
           headers: {
