@@ -1,8 +1,8 @@
 // src/services/api.js
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/business-registration";
-
+const API_URL =
+  "https://br-backend-7mkv1e4e6-ureshs-projects.vercel.app/api/business-registration";
 // Get all companies
 export const fetchCompanies = () => axios.get(API_URL);
 
